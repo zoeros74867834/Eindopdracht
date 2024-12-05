@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 2em;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #7E1414;
+    
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #7E1414;
+        
+    }
+
+    .spacer {
+        width: 50px;;
+        height: 3%;
+    }
+
+
+Body {
+
+    background-color: #7E1414;
+}
+h2{
+    color: white
+    ;
+}
+
+img {
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+header nav ul {
+    margin-right: auto;
+    margin-left: auto;
+}
+header nav a {
+  /*  Block zorgt ervoor dat het element aanpasbaar is om te schalen */
+    display: block;
+    width: 7rem;
+}
+mean {
+    justify-content:space-between ;
+}
+
+ main {
+    color: rgb(255, 255, 255);
+    
+}
+footer  {
+    background-color: #E89528;
+  
+}
